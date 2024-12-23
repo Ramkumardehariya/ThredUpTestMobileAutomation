@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="ThredUp Application Automation Test And Test Suites ">
+    <listeners>
+        <listener class-name="ExtentReportListener.ExtentReporterNG" />
+    </listeners>
+
+    <test name="ThredUp application Testcases">
+        <classes>
+            <class name="com.thredup.qa.testcases.LoginPageTest"/>
+            <class name="com.thredup.qa.testcases.SignUpPageTest"/>
+            <class name="com.thredup.qa.testcases.HomePageTest"/>
+        </classes>
+    </test>
+</suite>
